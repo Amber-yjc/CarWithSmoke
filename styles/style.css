@@ -1,0 +1,32 @@
+body {
+    	padding: 2em;
+    }
+#myCar{
+    position: absolute;
+    left: 110px;
+    top: 0;
+    z-index: 1;
+}
+#mySmoke{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    
+}
+.container{
+    margin-top: 30%;
+    margin-left: 15%;
+    
+}
+#slider{
+    position: fixed;
+    top: 300px;
+    right: 300px;
+    opacity: 0.7;
+    
+    
+}
+#slider:hover {
+    opacity: 1;
+}
